@@ -41,44 +41,43 @@ The datasets were cleaned and integrated by extracting relevant information from
   <br><br>
   - The sheet shows the average unit price for each cab type during different times of the day, and the trend line shows the estimate of the trend going on for the prices. I used the sheet to determine which cab type service will be cheaper during specific times of the day. The analysis revealed that the time of day and cab type are significant factors that affect cab prices. The average unit price is higher during peak hours compared to non-peak hours for all cab types. However, the analysis shows that some cab types are cheaper during specific times of the day.
 
-![Visualization](https://github.com/user-attachments/assets/2db71d70-2e5e-4f43-877e-eabd20a1bfa9)
-<br><br>
-![Visualization](https://github.com/user-attachments/assets/c527b0ba-7c96-4181-8acc-943bfa15f3c0)
-<br><br>
-![Visualization](https://github.com/user-attachments/assets/91a8e2cf-2f0f-4e8a-b00d-0bb16304ef44)
-<br><br>
-![Visualization](https://github.com/user-attachments/assets/dea0c5aa-ffce-4015-964a-ebbddf34a45d)
-
 #### Question 2: Impact of Weather Conditions on Cab Prices
 
 - **Descriptive Analysis**: How do typical weather conditions affect the prices for Uber and Lyft?
-  - We visualized the cab prices based on weather factors and time of day using Tableau.
-- **Predictive Analysis**: How to choose a ride service at certain times based on rain?
-  - We developed a visualization predicting the average unit price of a cab from a particular source based on the presence of rain.
-- **Prescriptive Analysis**: How should Uber and Lyft adjust prices based on weather conditions?
-  - We analyzed that users tend to book a cab service during the onset of rain or heavy rainfall.
+  <img width="452" alt="image" src="https://github.com/user-attachments/assets/10c3f3a9-b4aa-4739-b2a2-f8e173032298">
+  <br><br>
+  - The dashboard has two sheets. In the first sheet, I have added clouds, humidity, pressure, rain, and wind to the "Columns" section and average unit price to the "Rows" section. Here I compare the prices of different cab types based on the weather factors. The second sheet contains the trend line, which shows the estimated trend line based on the average unit price for a specific time of day, also containing the source (location) from where the cab is booked. The analysis revealed that weather factors have a significant impact on cab prices. The dashboard shows that during rainy weather, the cab prices are generally higher compared to non-rainy weather conditions. Cab prices are also higher during peak hours compared to non-peak hours for all cab types.
 
-![Visualization](https://github.com/user-attachments/assets/f0034a20-3acd-4ad4-a4aa-1fd68ca8e8f1)
-<br><br>
-![Visualization](https://github.com/user-attachments/assets/4d5f2c1b-caba-449a-90bc-923c2a2b8912)
-<br><br>
-![Visualization](https://github.com/user-attachments/assets/6dbcf065-9f57-4e9b-b1fe-d53721e055d2)
-<br><br>
-![Visualization](https://github.com/user-attachments/assets/6439970d-e9f6-4b80-a112-f11b8a99add3)
+- **Predictive Analysis**: How to choose a ride service at certain times based on rain?
+  <img width="452" alt="image" src="https://github.com/user-attachments/assets/e52877fb-da94-4a56-b83c-6a0cef350c7d">
+  <br><br>
+  - To create this dashboard, I have developed a visualization that predicts the average unit price of a cab from a particular source based on the presence of rain during a specific time of day.
+
+- **Prescriptive Analysis**: How should Uber and Lyft adjust prices based on weather conditions?
+  -  Based on the visualization, it can be observed that users tend to book a cab service during the onset of rain or heavy rainfall, as there are no cab rides booked while it is already raining. This could be attributed to users waiting for the rain to stop or booking when they see it has started raining and might get worse. Additionally, it is evident that Uber is more responsive to rain as its pricing drastically changes with the onset of rain, whereas Lyft shows a relatively smaller change in pricing with changes in rain. 
+
+
+
 
 #### Question 3: Comparing Cab Prices Between Uber and Lyft
 
 - **Descriptive Analysis**: How do cab prices vary based on pick-up and drop-off locations?
-  - We developed visualizations for various cab types offered by Uber and Lyft.
-- **Predictive Analysis**: Can we predict which service (Uber or Lyft) will be cheaper for a given trip?
-  - We provided insights on the factors affecting cab prices using two sheets.
-- **Prescriptive Analysis**: Can we recommend which service (Uber or Lyft) to use based on the price and other factors such as distance and time of day?
-  - We included graphs that depict the prices of various cab options based on location, time of day, and rain conditions.
+  <img width="452" alt="image" src="https://github.com/user-attachments/assets/dcfd29db-4a99-433d-b4e4-5856e27fa46f">
+  <br><br>
+  - In order to create this dashboard, I have developed visualizations for various cab types offered by Uber and Lyft. The comparison depicts the cab prices for each location based on the specific time of the day for specific pick-up and drop-off locations.
 
-![Visualization](https://github.com/user-attachments/assets/ca2348b9-5e54-4d5d-9fa1-126dafd6561e)
+- **Predictive Analysis**: Can we predict which service (Uber or Lyft) will be cheaper for a given trip?
+  <img width="452" alt="image" src="https://github.com/user-attachments/assets/a7b5cda6-e0e8-4b8c-b6de-99515eea07f3">
+  <br><br>
+  - Developed two sheets that provide insights on the factors affecting the cab prices. The first sheet shows the average unit price of cab types based on weather conditions at a specific time of the day. This sheet contains a scatter plot with the weather conditions as the independent variable and the average unit price as the dependent variable. The second sheet shows the average prices (low, mean, and high) for Uber and Lyft based on several factors, including the rain, source, and destination at a specific time of the day. The analysis can also help cab companies to develop pricing strategies that cater to different customer segments based on the time of day, cab type preferences and weather conditions.
+
+- **Prescriptive Analysis**: Can we recommend which service (Uber or Lyft) to use based on the price and other factors such as distance and time of day?
+  - Included graphs that depict the prices of various cab options based on location, time of day and rain conditions.
+
+
 
 ### Lessons Learned
-We learned the importance of understanding the data and how to represent it through visualization. We gained experience using Tableau for creating and interpreting visualizations and understanding various types of data visualization. Effective communication of findings through visualization was a key takeaway.
+I have learned the importance of understanding the data and how to represent it through visualization. Gained experience using Tableau for creating and interpreting visualizations and understanding various types of data visualization. Effective communication of findings through visualization was a key takeaway.
 
 ### How to Run the Project
 1. Clone the repository.
@@ -87,4 +86,4 @@ We learned the importance of understanding the data and how to represent it thro
 4. Run the visualizations to explore the data and insights.
 
 ### Conclusion
-This project provided insights into the pricing strategies of Uber and Lyft. By analyzing various factors such as time of day, distance, and weather conditions, we were able to recommend the most cost-effective ride options for consumers.
+This project provided insights into the pricing strategies of Uber and Lyft. By analyzing various factors such as time of day, distance, and weather conditions, I was able to recommend the most cost-effective ride options for consumers.
